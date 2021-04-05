@@ -1,0 +1,135 @@
+                                /* div {
+                                    border: 2px solid black;
+                                } */
+                                
+                                .search {
+                                    border-radius: 20px;
+                                    background-color: rgb(230, 230, 240);
+                                }
+                                
+                                .content {
+                                    margin-top: 20px;
+                                    padding-left: 50px;
+                                    padding-right: 50px;
+                                }
+                                
+                                .nav_head2 {
+                                    display: none;
+                                }
+                                
+                                .side_nav {
+                                    padding-left: 40px;
+                                    padding-right: 30px;
+                                    margin-top: 20px;
+                                }
+                                
+                                .sub {
+                                    display: none;
+                                }
+                                /* .place {
+                                    margin: 0px;
+                                    padding: 0px;
+                                } */
+                                
+                                @media(max-width:420px) {
+                                    .head {
+                                        display: none;
+                                    }
+                                    .nav_head {
+                                        display: none;
+                                    }
+                                    .content {
+                                        margin-right: 0px;
+                                        margin-left: 0px;
+                                        margin-top: 0px;
+                                        padding: 0px;
+                                    }
+                                    .col-sm-8 {
+                                        background-color: grey;
+                                        padding: 0px;
+                                    }
+                                    .nav_head2 {
+                                        display: contents;
+                                    }
+                                    .side_nav {
+                                        display: none;
+                                    }
+                                    * {
+                                        margin: 0px;
+                                        padding: 0px;
+                                    }
+                                    .view {
+                                        display: none;
+                                    }
+                                    .sub {
+                                        display: block;
+                                    }
+                                    .menu_right {
+                                        margin-right: 50px;
+                                    }
+                                    .menu_rightt {
+                                        margin-right: 150px;
+                                    }
+                                }
+                                
+                                .join {
+                                    position: absolute;
+                                    top: 0px;
+                                    right: 0px;
+                                    width: 120px;
+                                    display: none;
+                                    background-color: transparent;
+                                    border: 1px solid white;
+                                    border-radius: 5px;
+                                }
+                                
+                                .hide {
+                                    text-align: left;
+                                    width: 55%;
+                                    height: 20%;
+                                }
+                                
+                                @media (max-width: 640px) {
+                                    .join {
+                                        display: inline;
+                                    }
+                                    .hide {
+                                        font-size: 10px;
+                                        left: 12px;
+                                        bottom: 30px;
+                                    }
+                                    .heading {
+                                        font-size: 15px;
+                                    }
+                                    .content {
+                                        margin-right: 0px;
+                                        margin-left: 0px;
+                                        margin-top: 0px;
+                                        padding: 0px;
+                                    }
+                                    .place {
+                                        padding: 0px;
+                                        margin: 0px;
+                                    }
+                                    .side_nav {
+                                        padding: 0px;
+                                        margin: 0px;
+                                    }
+                                    .aa {
+                                        display: none;
+                                    }
+                                }
+                                
+                                .nav_button:active {
+                                    border-bottom: 1px solid black;
+                                }
+                                
+                                .head_col {
+                                    border-bottom: 1px solid grey;
+                                }
+                                
+                                @media(max-width: 780px) {
+                                    .share {
+                                        flex-direction: column;
+                                    }
+                                }
